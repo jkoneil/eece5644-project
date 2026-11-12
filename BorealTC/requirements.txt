@@ -1,0 +1,31 @@
+# Accelerate install and build
+wheel
+
+# Science
+numpy
+pandas
+pyarrow
+ipython
+jupyterlab
+matplotlib>=3.7.0
+scipy
+scikit-learn
+torch
+torchvision
+lightning
+tensorboard
+torch-metrics
+einops
+causal-conv1d>=1.1.0
+mamba-ssm
+git+https://github.com/willGuimont/pipeline
+optuna
+plotly
+tsnecuda
+
+# Dev
+black
+pylint
+ipykernel
+ipympl
+pre-commit
