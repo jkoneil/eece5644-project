@@ -1,5 +1,5 @@
 .DS_Store
 __pycache__/
 .ipynb_checkpoints/
-BorealTC/results/
+BorealTC/results_exp1/
 BorealTC/tests/
