@@ -1,0 +1,17 @@
+class_weights: null
+dropout: 0.0
+filter_size:
+- 3
+- 3
+focal_loss: false
+focal_loss_alpha: 0.25
+focal_loss_gamma: 2
+in_size: 10
+learning_rate_factor: 0.1
+lr: 0.005
+n_freq: 21
+n_wind: 7
+num_classes: 5
+num_filters: 32
+reduce_lr_patience: 4
+scheduler: plateau

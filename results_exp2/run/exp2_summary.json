@@ -1,0 +1,81 @@
+{
+  "split": "run",
+  "bins": 3,
+  "min_parts": 10,
+  "tolerance": 0.05,
+  "speed_edges": [
+    0.16797900262467166,
+    0.2362204724409448
+  ],
+  "yaw_edges": [
+    0.022239206333855396,
+    0.17299204830774623
+  ],
+  "n_mixed_bins": 7,
+  "n_windows_used": 15355,
+  "n_windows_total": 17954,
+  "acc_overall": 0.8765734655230032,
+  "folds": [
+    {
+      "fold": 1,
+      "acc_pool": 0.8800166274808212,
+      "acc_cond": 0.7901415662038392,
+      "gap": 0.08987506127698197,
+      "acc_cond_weighted": 0.8702542832763213,
+      "gap_weighted": 0.009762344204499951,
+      "n_windows": 4440,
+      "n_bins_used": 6
+    },
+    {
+      "fold": 2,
+      "acc_pool": 0.8989390590252659,
+      "acc_cond": 0.9485810029412998,
+      "gap": -0.049641943916033826,
+      "acc_cond_weighted": 0.9493588751224261,
+      "gap_weighted": -0.050419816097160175,
+      "n_windows": 2506,
+      "n_bins_used": 4
+    },
+    {
+      "fold": 3,
+      "acc_pool": 0.9138973697594388,
+      "acc_cond": 0.8523246966217788,
+      "gap": 0.06157267313766002,
+      "acc_cond_weighted": 0.8179322153896065,
+      "gap_weighted": 0.09596515436983233,
+      "n_windows": 3566,
+      "n_bins_used": 6
+    },
+    {
+      "fold": 4,
+      "acc_pool": 0.74182908662219,
+      "acc_cond": 0.9043711078193837,
+      "gap": -0.16254202119719363,
+      "acc_cond_weighted": 0.9144443270196023,
+      "gap_weighted": -0.17261524039741227,
+      "n_windows": 2087,
+      "n_bins_used": 5
+    },
+    {
+      "fold": 5,
+      "acc_pool": 0.9081410270763719,
+      "acc_cond": 0.7976942333509042,
+      "gap": 0.11044679372546773,
+      "acc_cond_weighted": 0.7943822500522998,
+      "gap_weighted": 0.11375877702407211,
+      "n_windows": 2756,
+      "n_bins_used": 6
+    }
+  ],
+  "std_ddof": 1,
+  "acc_pool_mean": 0.8685646339928177,
+  "acc_pool_std": 0.07200173720095923,
+  "acc_cond_mean": 0.858622521387441,
+  "acc_cond_std": 0.06824042362613515,
+  "gap_mean": 0.009942112605376452,
+  "gap_std": 0.11451770408591422,
+  "acc_cond_weighted_mean": 0.8692743901720512,
+  "gap_weighted_mean": -0.0007097561792336115,
+  "chance_cond": 0.2833333333333333,
+  "verdict": "reads terrain signal beyond driving style"
+}
